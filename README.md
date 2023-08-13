@@ -91,4 +91,7 @@ Comandos usados: git remote origin e git push
 
 ## Git Bash
 > Colocando o código do exercício 3 no repositorio (Colocando as alterçoes feitas)
-
+> git add., depois git commit e git push
+>
+> Print do git push
+![git push](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/6447af08-3c5b-4d51-9c59-596e96cc3936)
