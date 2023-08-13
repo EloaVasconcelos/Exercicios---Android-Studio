@@ -27,3 +27,4 @@ Comandos usados: git remote origin e git push
 
 
 ## Resultado (Colocando o projeto no Repositório)
+![Resultado do primeiro commit](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/abd4c9f9-2c38-4acc-9643-4a6ea498e5e6)
