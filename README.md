@@ -85,3 +85,10 @@ Comandos usados: git remote origin e git push
 
 > Por ultimo o botao próximo é programado, direcionando para a próxima tela 
 ![Programando o botão próximo](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/271a135b-10dd-49d3-9b74-f2738390c1a8)
+
+
+> Esse exercício foi testado em celular e está funcionado
+
+## Git Bash
+> Colocando o código do exercício 3 no repositorio (Colocando as alterçoes feitas)
+
