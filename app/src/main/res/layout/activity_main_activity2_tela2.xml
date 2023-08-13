@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity2Tela2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="431dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="718dp"
+        android:background="#370909"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtpremio"
+        android:layout_width="430dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="623dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txtpremio"
+        android:textColor="#370909"
+        android:textColorLink="#370909"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
+    <EditText
+        android:id="@+id/txtextras"
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="522dp"
+        android:ems="10"
+        android:hint="@string/txtextra"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtpremio"
+        app:layout_constraintVertical_bias="0.266" />
+
+    <EditText
+        android:id="@+id/txtfaltas"
+        android:layout_width="370dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="409dp"
+        android:ems="10"
+        android:hint="@string/txtfaltas"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtextras" />
+
+    <Button
+        android:id="@+id/btnverificar"
+        android:layout_width="188dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="263dp"
+        android:backgroundTint="#370909"
+        android:text="@string/txtvericar"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtfaltas" />
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="125dp"
+        android:text="@string/txtresult"
+        android:textColor="#370909"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnverificar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnproximo"
+        android:layout_width="161dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#370909"
+        android:text="@string/btnproximo"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtresult" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
