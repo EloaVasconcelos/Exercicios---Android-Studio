@@ -38,6 +38,7 @@ Comandos usados: git remote origin e git push
 
 ### Código XML 
 > No código do layout, foi adicionada, sendo ela (android:inputType="number") que serve para abrir somento o teclado númerico do celular 
+>  ![teclado numerico](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/d7308c6f-4be3-4311-9354-87276695998f)
 
 ## Código Java 
 > Primeiro os elementos que serão utilizados são, declarando o tipo de elemento e o id dele
@@ -95,3 +96,5 @@ Comandos usados: git remote origin e git push
 >
 > Print do git push
 ![git push](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/6447af08-3c5b-4d51-9c59-596e96cc3936)
+
+
