@@ -162,7 +162,6 @@
         android:layout_marginEnd="192dp"
         android:layout_marginBottom="122dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/txtvalor"
         android:textColor="#370909"
         android:textColorHighlight="#370909"
         android:textColorHint="#370909"
