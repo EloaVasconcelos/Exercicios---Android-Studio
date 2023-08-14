@@ -98,4 +98,6 @@ Comandos usados: git remote origin e git push
 ![git push](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/6447af08-3c5b-4d51-9c59-596e96cc3936)
 ### Colocando alterações do exercícioo 6 
 ![image](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/a81694ba-6608-4a5f-b8d0-eb4a04fa7df8)
+![image](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/f9dec58d-5306-462e-878a-4a947f0bdd42)
+
 
