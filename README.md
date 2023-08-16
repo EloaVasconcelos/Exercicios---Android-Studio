@@ -31,13 +31,12 @@ Comandos usados: git remote origin e git push
 
 
 ## Exercício 3
-> Elementos de layout: Toolbar, 2 EditText, 2 buttons, 2 
-> TextView 
+> Elementos de layout: Toolbar, 2 EditText, 2 buttons, 2 TextView 
 
 ![Print do Layout](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/e073a5f6-723f-46c2-9273-7fb794833549)
 
 ### Código XML 
-> No código do layout, foi adicionada, sendo ela (android:inputType="number") que serve para abrir somento o teclado númerico do celular 
+> No código do layout, foi adicionado um novo atributo sendo ele(android:inputType="number") que serve para abrir somento o teclado númerico do celular 
 >  ![teclado numerico](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/d7308c6f-4be3-4311-9354-87276695998f)
 
 ## Código Java 
@@ -46,16 +45,16 @@ Comandos usados: git remote origin e git push
 
 ##
 
-> No codigo a seguir a anotação @SuppressLint("MissingInflatedId") pois um elemento de layout esta sem id definido 
+> No codigo a seguir a anotação @SuppressLint("MissingInflatedId") foi inserida (por sugestão do android) pois um elemento de layout esta sem id definido (toolbar) 
 >
-> E a seguir os elementos de layout que estão na activity_main_activity2_tela2
+> E a seguir os elementos de layout que estão na activity_main_activity2_tela2 estão sendo instanciados
 ![elementos](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/a1958f63-2bd5-4d2d-a3aa-12cab1ee8bab)
 
 
 # 
 > O botão verificar será programado 
 >
-> Primeiro: um método de tratamento de evento de clique para algum botão
+> Primeiro: Um método de tratamento de evento de clique o botão 
 >
 > Em seguida os valores digitados na caixa de texto serão convertidos em double, assim declarando novas variaveis para receberem o valor (serão usados no calculo)
 ![convertendo os valores](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/015b80ba-0001-4ace-94ec-bf9b8f4fbb0f)
@@ -100,4 +99,39 @@ Comandos usados: git remote origin e git push
 ![image](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/a81694ba-6608-4a5f-b8d0-eb4a04fa7df8)
 ![image](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/f9dec58d-5306-462e-878a-4a947f0bdd42)
 
+# Exercício 6 
+> Elementos de layout: Toolbar, 3 EditText, 2 buttons, 3 Check Box
+> Uso: Através da CheckBox o usuário pode selecionar o produto ao seu pedido, assim como a quantidade de cada um.
+![Layout exe 6 - Print](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/d835256e-66e0-4c62-a56d-daffddeec053)
 
+### Código XML 
+> Assim como no exercício 3 o atributo (android:inputType="number") foi inserido no código de cada CheckBox, servindo para abrir somente o o teclado númerico 
+
+## Código Java 
+> Em primeiro os elementos de layout e seus id's são declarados
+> [ID elementos](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/4a07c563-8b8a-4766-b95c-ba23c712cc37)
+> 
+> Em seguidas esses elementos são instânciados, antes do botão (Finalizar Pedido)
+> 
+![Instânciando](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/612698ab-32e5-49c5-9af7-f5c22b3da344)
+
+> Calucando o PEDIDO:
+> De inicio dentro do bntfinalizar, 4 variáveis são criadas, recendo valor nulo de inicou. Pois em seguida serão utilizadas para Calculos
+![image](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/81ef1df6-7629-41be-945d-93d3a6acdba3)
+> Após declarar as variáveis uma estrutura de if vai ser criada
+> ![Estrutura if nas check box](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/18f013a7-1e27-4cef-be6c-6940cc86f4f2)
+
+![Somando os resultados](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/835f7cdd-9247-401e-9614-7572e8e29228)
+
+
+![Mostrando resultado final](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/5588e5fe-f106-4954-9b3d-7425064f15f6)
+
+
+![Botão voltar](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/653caa77-541d-4c23-a915-029d94582ae5)
+
+
+
+
+### Ultimo commit 
+> Exercícios testados e funcionando
+> 
