@@ -31,83 +31,125 @@ Comandos usados: git remote origin e git push
 
 
 ## Exercício 3
-> Elementos de layout: Toolbar, 2 EditText, 2 buttons, 2 TextView 
+> Elementos de layout: Toolbar, 2 EditText, 2 buttons, 3 TextView
+> 
+> Toolbar (Elemento para enfeitar)
+> 
+> 2 EditText, onde o usuário irá digitar os minutos (Extras e Faltas)
+> 
+>  2 botões, 1 para verificar (onde todos os calculos estaram programados) e outro para ir para o próximo exercício 
+>
+> 
+## Elemento de Layout Utilizado: Toobar (Somente para o layout da pagina)
+> Geranmente o Toolbar é implementada para servir como barra de tarefas de app, no entanto no exercício vou somente utilizado para complementar o layout da tela 
 
-![Print do Layout](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/e073a5f6-723f-46c2-9273-7fb794833549)
+## Print da tela
+![Print do layout](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/745e0845-6a9c-4973-aa40-599dcdd3d8ab)
 
 ### Código XML 
-> No código do layout, foi adicionado um novo atributo sendo ele(android:inputType="number") que serve para abrir somento o teclado númerico do celular 
+> No código do layout, foi adicionado um novo atributo sendo ele(android:inputType="number")
+> que serve para abrir somento o teclado númerico do celular
+> 
 >  ![teclado numerico](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/d7308c6f-4be3-4311-9354-87276695998f)
 
 ## Código Java 
-> Primeiro os elementos que serão utilizados são, declarando o tipo de elemento e o id dele
-![elementos](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/83ab16b9-23fd-4a91-9823-4e83c4087bdf)
+>
+> Primeiro os elementos que serão utilizados são declarados: tipo de elemento e o id dele
+>
+![Elementos](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/e9a98902-8648-4271-a48b-a93389fdc176)
 
-##
 
 > No codigo a seguir a anotação @SuppressLint("MissingInflatedId") foi inserida (por sugestão do android) pois um elemento de layout esta sem id definido (toolbar) 
 >
 > E a seguir os elementos de layout que estão na activity_main_activity2_tela2 estão sendo instanciados
-![elementos](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/a1958f63-2bd5-4d2d-a3aa-12cab1ee8bab)
-
-
-# 
-> O botão verificar será programado 
+> 
+![Elementos](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/19a950e6-ad70-4cb8-a07a-d0313bb14305)
+>
+> O botão verificar será programado (onde todos os calculos são programados)  
 >
 > Primeiro: Um método de tratamento de evento de clique o botão 
 >
 > Em seguida os valores digitados na caixa de texto serão convertidos em double, assim declarando novas variaveis para receberem o valor (serão usados no calculo)
-![convertendo os valores](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/015b80ba-0001-4ace-94ec-bf9b8f4fbb0f)
-
-
-
-
-> O próximo passo é fazer que os valores inseridos(em horas) sejam transformados em minutos 
+![Conversão](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/aabc2659-cf0c-4cbd-ac61-2098111e9a59)
 >
-> Novas Variaveis são criadas para receberem os novos valores, sendo elas He (Horas extras) e Hf (Horas Faltas )
-![Transformando em minutos](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/8d945f1d-9aad-4c6a-b64f-cb5a45ff2b21)
+> O exercício pede que os minutos digitados sejam transformados em horas e mostrados na tela junto com o valor do prêmio
+>
+> Então antes de verificar o premio os minutos serão convertidos 
+>
+> Novas Variaveis são criadas para receberem os novos valores, sendo elas Horas e Horas2
+>
+> A variável Horas pegará o valor dos minutos extras
+>
+> A variável Horas 2 pegará o valor dos Minutos Faltados
+>
+> Ambos transformados em horas e apresentados em textview diferentes
+
+![Conversão 2](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/f125c3b3-65cd-412f-bf1f-cf479ae7de83)
+
 
 > Após converter os valores em minutos o calculo para verificar o prêmio é feito 
 >
-> Criando a variaveis H 
+> Criando a variável H 
 >
 > Calculo: double H = Me - (2.0 / 3.0) * Mf;
-![calculo](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/6e6d24d7-b5b2-43b4-a298-f4cf1352e349)
+>
+> Apos fazer o cálculo, o proximo  passo é fazer a verificação de acordo com a tabela do exercício, de acordo com o resultado os o valor do prêmio é definido
+> 
+> Utilizando a estrutura if e else
+> 
+> Após cada condição o resultado deve aparecer na tela
+> 
+>
+> Exemplo: txtresult.setText("O prêmio é de R$500,00");
 
-> Agora o proximo passo é fazer a verificação de acordo com a tabela do exercício, de acordo com o resultado os o valor do prêmio é definido 
->
-> Utilizando a estrutura if e else 
->
-> Após cada condição o resultado deve aparecer na tela 
-> txtresult.setText("O prêmio é de R$500,00");
->
-![Estrutura if e else](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/9f246222-c49b-4f7f-b48e-2fa5f8dd4c49)
+![Cálculo e Estrutura](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/eb07d7c7-29aa-4a4d-92c1-64a568929280)
 
-> Por ultimo o botao próximo é programado, direcionando para a próxima tela 
+> Por ultimo o botao próximo é programado, direcionando para a próxima tela, criando uma nova intent 
 ![Programando o botão próximo](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/271a135b-10dd-49d3-9b74-f2738390c1a8)
 
-
-> Esse exercício foi testado em celular e está funcionado
+> Esse exercício foi testado no celular e está funcionado
 
 ## Git Bash
 > Colocando o código do exercício 3 no repositorio (Colocando as alterçoes feitas)
+> 
 > git add., depois git commit e git push
 >
 > Print do git push
+> 
 ![git push](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/6447af08-3c5b-4d51-9c59-596e96cc3936)
-### Colocando alterações do exercícioo 6 
-![image](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/a81694ba-6608-4a5f-b8d0-eb4a04fa7df8)
-![image](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/f9dec58d-5306-462e-878a-4a947f0bdd42)
+> 
+### Colocando alterações do exercício 3
+>
+![alteracao](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/a81694ba-6608-4a5f-b8d0-eb4a04fa7df8)
+>
+![alteração](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/f9dec58d-5306-462e-878a-4a947f0bdd42)
 
 # Exercício 6 
 > Elementos de layout: Toolbar, 3 EditText, 2 buttons, 3 Check Box
-> Uso: Através da CheckBox o usuário pode selecionar o produto ao seu pedido, assim como a quantidade de cada um.
-![Layout exe 6 - Print](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/d835256e-66e0-4c62-a56d-daffddeec053)
+>
+> Toobar (Somente para enfeitar)
+>
+> 3 Edit text, todas servem para a entrada da quantidade de cada produto
+>
+> 2 button, 1 para Finalizar o pedido, somanto tudo
+>
+> 3 CheckBox, as 3 servem para o usuário selecinar o produto ao seu pedido
+>
+
+## Elemento de Layout Utilizado: CheckBox
+> A elemento de layout "CheckBox" foi utilizada para que o usuário posso selecionar o produto desejado, tendo um sistema de escolha
+> Como o própio nome diz é uma caixa de seleção, possibilitando o usuário a escolher vários itens
+> No exercício o usuário irá selecionar o codigo no produto 
+
+## Print da tela
+![Print - Exercício ](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/21b2cf35-2400-4139-aceb-6bb5ded89b8f)
 
 ### Código XML 
+>
 > Assim como no exercício 3 o atributo (android:inputType="number") foi inserido no código de cada CheckBox, servindo para abrir somente o o teclado númerico 
-
+>
 ## Código Java 
+>
 > Em primeiro os elementos de layout e seus id's são declarados
 > [ID elementos](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/4a07c563-8b8a-4766-b95c-ba23c712cc37)
 > 
@@ -116,22 +158,44 @@ Comandos usados: git remote origin e git push
 ![Instânciando](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/612698ab-32e5-49c5-9af7-f5c22b3da344)
 
 > Calucando o PEDIDO:
+> 
 > De inicio dentro do bntfinalizar, 4 variáveis são criadas, recendo valor nulo de inicou. Pois em seguida serão utilizadas para Calculos
-![image](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/81ef1df6-7629-41be-945d-93d3a6acdba3)
-> Após declarar as variáveis uma estrutura de if vai ser criada
+> 
+![4 variáves](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/81ef1df6-7629-41be-945d-93d3a6acdba3)
+>
+> Após declarar as variáveis uma estrutura de if vai ser criada, e as variaveis criadas serão usadas em cada checkbox 
+>
+> Na estrutura if e else abaixo: As 3 check box são programadas, onde caso estejam selecionadas um calcula será feito
+> Pegando a quantidade do produto (definido pelo usuário na edit text referente ao produto)
+>  E multiplicando pelo seu respectivo valor
+> Isso se repete nas 3 check box
+> Cada calculo irá cair em uma variável diferente
+>
 > ![Estrutura if nas check box](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/18f013a7-1e27-4cef-be6c-6940cc86f4f2)
-
+>
+> Em seguida todos os valores obtidos através das checkbox (produto selecionado)
+> E através da edittext (quantidades de cada produto)
+> Um cálculo é feito somandos todas, através da variáveis que estão "armazenando" o valor de cada uma
+> Criando uma ultima variável = "Valor final" que somará tudo
+>
 ![Somando os resultados](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/835f7cdd-9247-401e-9614-7572e8e29228)
-
-
+>
+> Após todo processo o resultado é mostrado na tela através da textview
+>
+> Onde um formato é declarado para o resultado final, sendo ele:
+>
+> String.format("%.2f", valorFinal)) possibilitando um valor com 2 casas decimais (ponto flutuante)
 ![Mostrando resultado final](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/5588e5fe-f106-4954-9b3d-7425064f15f6)
 
-
+>
+> Por final o botão voltar é programada com uma intent (voltar)
+>
+> Esse botão leverá para a tela inicial do projeto 
 ![Botão voltar](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/653caa77-541d-4c23-a915-029d94582ae5)
 
 
 
 
-### Ultimo commit 
+### Ultimo commit - 
 > Exercícios testados e funcionando
-> 
+> Colocando as alteraçoes no repositório do github 
