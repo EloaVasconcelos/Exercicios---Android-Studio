@@ -4,7 +4,6 @@
 ## Exercícios escolhidos: 3 e 6
 
 
-
 ## Criando Repositório
 ![Criando Repositorio](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/7d86d4b9-8cc3-4c09-bafb-34088d9fc59b)
 
@@ -44,11 +43,12 @@ Comandos usados: git remote origin e git push
 > Geranmente o Toolbar é implementada para servir como barra de tarefas de app, no entanto no exercício vou somente utilizado para complementar o layout da tela 
 
 ## Print da tela
-![Print do layout](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/745e0845-6a9c-4973-aa40-599dcdd3d8ab)
+![Layout Exercicio 3](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/fa805771-189a-4ed8-9db8-8350d41f63bd)
+
 
 ### Código XML 
 > No código do layout, foi adicionado um novo atributo sendo ele(android:inputType="number")
-> que serve para abrir somento o teclado númerico do celular
+> Que serve para abrir somento o teclado númerico do celular
 > 
 >  ![teclado numerico](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/d7308c6f-4be3-4311-9354-87276695998f)
 
@@ -74,9 +74,9 @@ Comandos usados: git remote origin e git push
 >
 > O exercício pede que os minutos digitados sejam transformados em horas e mostrados na tela junto com o valor do prêmio
 >
-> Então antes de verificar o premio os minutos serão convertidos 
+> Então antes de verificar o prêmio os minutos serão convertidos 
 >
-> Novas Variaveis são criadas para receberem os novos valores, sendo elas Horas e Horas2
+> Novas Variáveis são criadas para receberem os novos valores, sendo elas Horas e Horas2
 >
 > A variável Horas pegará o valor dos minutos extras
 >
@@ -166,16 +166,23 @@ Comandos usados: git remote origin e git push
 > Após declarar as variáveis uma estrutura de if vai ser criada, e as variaveis criadas serão usadas em cada checkbox 
 >
 > Na estrutura if e else abaixo: As 3 check box são programadas, onde caso estejam selecionadas um calcula será feito
+>
 > Pegando a quantidade do produto (definido pelo usuário na edit text referente ao produto)
+>
 >  E multiplicando pelo seu respectivo valor
-> Isso se repete nas 3 check box
+>
+> Isso se repete nas 3 checkbox
+>
 > Cada calculo irá cair em uma variável diferente
 >
 > ![Estrutura if nas check box](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/18f013a7-1e27-4cef-be6c-6940cc86f4f2)
 >
 > Em seguida todos os valores obtidos através das checkbox (produto selecionado)
+>
 > E através da edittext (quantidades de cada produto)
+>
 > Um cálculo é feito somandos todas, através da variáveis que estão "armazenando" o valor de cada uma
+>
 > Criando uma ultima variável = "Valor final" que somará tudo
 >
 ![Somando os resultados](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/835f7cdd-9247-401e-9614-7572e8e29228)
@@ -184,7 +191,7 @@ Comandos usados: git remote origin e git push
 >
 > Onde um formato é declarado para o resultado final, sendo ele:
 >
-> String.format("%.2f", valorFinal)) possibilitando um valor com 2 casas decimais (ponto flutuante)
+> String.format("%.2f", valorFinal)) possibilitando um valor com 2 casas decimais (ponto flutuante) no resultado 
 ![Mostrando resultado final](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/5588e5fe-f106-4954-9b3d-7425064f15f6)
 
 >
@@ -194,13 +201,14 @@ Comandos usados: git remote origin e git push
 ![Botão voltar](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/653caa77-541d-4c23-a915-029d94582ae5)
 
 
-
-
 ### Ultimo commit - 
 > Exercícios testados e funcionando
 > Colocando as alteraçoes no repositório do github
+> 
 > ![git add.](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/efc3f742-4fc3-43dc-913f-186990c8377a)
+> 
 > ![git commit](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/fdd0912c-c214-49d0-a842-c4e3362e1737)
+> 
 > ![git push](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/9813c3f5-ee02-4827-bc6a-733f229799ab)
 
 
