@@ -62,7 +62,7 @@ Comandos usados: git remote origin e git push
 ![Elementos](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/e9a98902-8648-4271-a48b-a93389fdc176)
 >
 
-> No codigo a seguir a anotação @SuppressLint("MissingInflatedId") foi inserida (por sugestão do android) pois um elemento de layout esta sem id definido (toolbar) 
+> No codigo a seguir a anotação @SuppressLint("MissingInflatedId") foi inserida (por sugestão do android) pois um elemento de layout está sem id definido (toolbar) 
 >
 > E a seguir os elementos de layout que estão na activity_main_activity2_tela2 estão sendo instanciados
 > 
@@ -72,7 +72,7 @@ Comandos usados: git remote origin e git push
 >
 > Primeiro: Um método de tratamento de evento de clique o botão 
 >
-> Em seguida os valores digitados na caixa de texto serão convertidos em double, assim declarando novas variaveis para receberem o valor (serão usados no calculo)
+> Em seguida os valores digitados na caixa de texto serão convertidos em double, assim declarando novas variáveis para receberem o valor (serão usados no calculo)
 >
 ![Conversão](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/aabc2659-cf0c-4cbd-ac61-2098111e9a59)
 >
@@ -163,7 +163,7 @@ Comandos usados: git remote origin e git push
 
 > Calucando o PEDIDO:
 > 
-> De inicio dentro do bntfinalizar, 4 variáveis são criadas, recendo valor nulo de inicou. Pois em seguida serão utilizadas para Calculos
+> De inicio dentro do bntfinalizar, 4 variáveis são criadas, recendo valor nulo de inicou. Pois em seguida serão utilizadas para Cálculos
 > 
 ![4 variáves](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/81ef1df6-7629-41be-945d-93d3a6acdba3)
 >
@@ -177,7 +177,7 @@ Comandos usados: git remote origin e git push
 >
 > Isso se repete nas 3 checkbox
 >
-> Cada calculo irá cair em uma variável diferente
+> Cada cálculo irá cair em uma variável diferente
 >
 > ![Estrutura if nas check box](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/18f013a7-1e27-4cef-be6c-6940cc86f4f2)
 >
@@ -187,7 +187,7 @@ Comandos usados: git remote origin e git push
 >
 > Um cálculo é feito somandos todas, através da variáveis que estão "armazenando" o valor de cada uma
 >
-> Criando uma ultima variável = "Valor final" que somará tudo
+> Criando uma última variável = "Valor final" que somará tudo
 >
 ![Somando os resultados](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/835f7cdd-9247-401e-9614-7572e8e29228)
 >
