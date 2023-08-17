@@ -8,10 +8,13 @@
 ![Criando Repositorio](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/7d86d4b9-8cc3-4c09-bafb-34088d9fc59b)
 
 ## Colocando Projeto no Repositório criado, pelo GitBash (por linha de comando)
- Comandos usados: git init e git add .
+>
+Comandos usados: git init e git add .
+>
 ![git init e git add.](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/7550ff89-18a4-4508-9b8d-05c27c9c977d)
 
 Comando usados: git status 
+>
 ![git status](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/ac7ab4c1-9008-4160-9097-b4402f8a1559)
  
 
@@ -22,7 +25,7 @@ Comando usado: git commit -m
 
 > Colocando o link no repositorio e empurrando o projeto
 Comandos usados: git remote origin e git push
-![image](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/e76b5e6f-c751-4792-920a-577b0790acfe)
+![Git Bash](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/e76b5e6f-c751-4792-920a-577b0790acfe)
 
 
 ## Resultado (Colocando o projeto no Repositório)
@@ -36,11 +39,11 @@ Comandos usados: git remote origin e git push
 > 
 > 2 EditText, onde o usuário irá digitar os minutos (Extras e Faltas)
 > 
->  2 botões, 1 para verificar (onde todos os calculos estaram programados) e outro para ir para o próximo exercício 
+> 2 botões, 1 para verificar (onde todos os calculos estaram programados) e outro para ir para o próximo exercício 
 >
 > 
 ## Elemento de Layout Utilizado: Toobar (Somente para o layout da pagina)
-> Geranmente o Toolbar é implementada para servir como barra de tarefas de app, no entanto no exercício vou somente utilizado para complementar o layout da tela 
+> Geralmente a Toolbar é implementada para servir como barra de tarefas de app, no entanto no exercício será somente utilizado para complementar o layout da tela 
 
 ## Print da tela
 ![Layout Exercicio 3](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/fa805771-189a-4ed8-9db8-8350d41f63bd)
@@ -57,7 +60,7 @@ Comandos usados: git remote origin e git push
 > Primeiro os elementos que serão utilizados são declarados: tipo de elemento e o id dele
 >
 ![Elementos](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/e9a98902-8648-4271-a48b-a93389fdc176)
-
+>
 
 > No codigo a seguir a anotação @SuppressLint("MissingInflatedId") foi inserida (por sugestão do android) pois um elemento de layout esta sem id definido (toolbar) 
 >
@@ -70,11 +73,12 @@ Comandos usados: git remote origin e git push
 > Primeiro: Um método de tratamento de evento de clique o botão 
 >
 > Em seguida os valores digitados na caixa de texto serão convertidos em double, assim declarando novas variaveis para receberem o valor (serão usados no calculo)
+>
 ![Conversão](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/aabc2659-cf0c-4cbd-ac61-2098111e9a59)
 >
 > O exercício pede que os minutos digitados sejam transformados em horas e mostrados na tela junto com o valor do prêmio
 >
-> Então antes de verificar o prêmio os minutos serão convertidos 
+> Então antes de verificar o prêmio os minutos serão convertidos e mostrados na tela 
 >
 > Novas Variáveis são criadas para receberem os novos valores, sendo elas Horas e Horas2
 >
@@ -210,6 +214,13 @@ Comandos usados: git remote origin e git push
 > ![git commit](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/fdd0912c-c214-49d0-a842-c4e3362e1737)
 > 
 > ![git push](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/9813c3f5-ee02-4827-bc6a-733f229799ab)
+
+## Vídeo da execução da app (De cada exercício)  
+https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/61de4c7b-6e1c-4a8f-a511-4981886fce3e
+
+
+
+
 
 
 
