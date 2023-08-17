@@ -198,4 +198,11 @@ Comandos usados: git remote origin e git push
 
 ### Ultimo commit - 
 > Exercícios testados e funcionando
-> Colocando as alteraçoes no repositório do github 
+> Colocando as alteraçoes no repositório do github
+> ![git add.](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/efc3f742-4fc3-43dc-913f-186990c8377a)
+> ![git commit](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/fdd0912c-c214-49d0-a842-c4e3362e1737)
+> ![git push](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/9813c3f5-ee02-4827-bc6a-733f229799ab)
+
+
+
+
