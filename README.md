@@ -41,6 +41,9 @@ Comandos usados: git remote origin e git push
 > 
 > 2 botões, 1 para verificar (onde todos os calculos estaram programados) e outro para ir para o próximo exercício 
 >
+> No processo de criação de tela (adicionando os elementos de layout), mudando seus id e posicionando na tela,
+> Assim como as  strings (textos/palavras) que irão aparecer na tela eram declaradas no arquivo de strings, através do id 
+>
 > 
 ## Elemento de Layout Utilizado: Toobar (Somente para o layout da pagina)
 > Geralmente a Toolbar é implementada para servir como barra de tarefas de app, no entanto no exercício será somente utilizado para complementar o layout da tela 
@@ -139,11 +142,17 @@ Comandos usados: git remote origin e git push
 >
 > 3 CheckBox, as 3 servem para o usuário selecinar o produto ao seu pedido
 >
+>  No processo de criação de tela (adicionando os elementos de layout), mudando seus id e posicionando na tela,
+> Assim como as  strings (textos/palavras) que irão aparecer na tela eram declaradas no arquivo de strings, através do id 
 
 ## Elemento de Layout Utilizado: CheckBox
 > A elemento de layout "CheckBox" foi utilizada para que o usuário posso selecionar o produto desejado, tendo um sistema de escolha
 > Como o própio nome diz é uma caixa de seleção, possibilitando o usuário a escolher vários itens
-> No exercício o usuário irá selecionar o codigo no produto 
+> No exercício o usuário irá selecionar o codigo no produto
+> O usuário irá escolher o código do produto, sendo eles:
+> C para CachorroQuente
+> R para Refri
+> S para sobremessa  
 
 ## Print da tela
 ![Print - Exercício ](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/21b2cf35-2400-4139-aceb-6bb5ded89b8f)
