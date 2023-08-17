@@ -11,12 +11,15 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity2Tela2 extends AppCompatActivity {
+
+    // Declarando os elementos de tela e seus id's
     Button btnproximo;
     EditText txtextras;
     EditText txtfaltas;
     Button btnverificar;
     TextView txtresult;
-
+    TextView txthoras;
+    TextView txthoras2;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -24,12 +27,14 @@ public class MainActivity2Tela2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_activity2_tela2);
 
+        // Instãnciando as variáveis dos elementos de tela
         txtextras = findViewById(R.id.txtextras);
         txtfaltas = findViewById(R.id.txtfaltas);
         btnverificar = findViewById(R.id.btnverificar);
+        txthoras = findViewById(R.id.txthoras);
+        txthoras2 = findViewById(R.id.txthoras2);
         txtresult = findViewById(R.id.txtresult);
         btnproximo = findViewById(R.id.btnproximo);
-
 
 
 
@@ -38,23 +43,21 @@ public class MainActivity2Tela2 extends AppCompatActivity {
             @Override
             public void onClick(View h) {
                 //  Criado variáveis para receberem o valores digitados nas caixas de texto e Convertendo para Double
-                double He = Double.parseDouble(txtextras.getText().toString());
-                double Hf = Double.parseDouble(txtfaltas.getText().toString());
+                double Me = Double.parseDouble(txtextras.getText().toString());
+                double Mf = Double.parseDouble(txtfaltas.getText().toString());
 
-                // Converter as horas digitadas para minutos, para fazer o calculo utilizando minutos
-                // Criando a variavel Me(Minutos extras) para receber as horas um minutos
-                double Me = He * 60;
-                // Criando a varivel Me(Minutos Faltas para receber as horas um minutos
-                double Mf = Hf * 60;
+                // Os minutos digitados são transformados em horas e imprimidos na tela
+                double Horas = Me/60;
+                txthoras.setText("Horas Extras: "+ Horas);
+
+                double Horas2 = Mf/60;
+                txthoras2.setText("Horas Extras: "+ Horas2);
 
 
-                // Após converter os valores em minutos (horas em minutos)
-                // Calculando o H (de acordo com a tabela)
+                // Pegando os valores digitados e fazendo o cálculo
                  double H = Me - (2.0 / 3.0) * Mf;
-
-
                 // Criando a estrutura if e else para verificação dos prêmios, após verificar serão colocados da TextView
-
+                // Em seguida mostrados na tela
                 if (H > 2400) {
                     txtresult.setText("O prêmio é de R$500,00");
                 }
@@ -76,6 +79,7 @@ public class MainActivity2Tela2 extends AppCompatActivity {
                 }
 
             }
+
         });
 
 

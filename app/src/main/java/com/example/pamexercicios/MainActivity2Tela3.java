@@ -20,7 +20,7 @@ public class MainActivity2Tela3 extends AppCompatActivity {
         btnentar2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View t){
-                Intent entrar2=new Intent(MainActivity2Tela3.this, MainActivity2Tela4.class);
+                Intent entrar2=new Intent(MainActivity2Tela3.this, MainActivity2Tela5.class);
                 startActivity(entrar2);
             }
         });

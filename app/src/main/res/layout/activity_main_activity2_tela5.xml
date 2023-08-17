@@ -48,8 +48,8 @@
 
     <CheckBox
         android:id="@+id/cbcachorroquente"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="61dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="154dp"
         android:layout_marginBottom="55dp"
@@ -60,15 +60,15 @@
         android:textSize="27sp"
         app:layout_constraintBottom_toTopOf="@+id/cbrefri"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtpedido" />
 
-
     <CheckBox
         android:id="@+id/cbrefri"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="17dp"
+        android:layout_width="86dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="88dp"
         android:layout_marginTop="-15dp"
         android:layout_marginBottom="45dp"
         android:fontFamily="sans-serif-medium"
@@ -83,11 +83,11 @@
 
     <CheckBox
         android:id="@+id/cbsobre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="94dp"
+        android:layout_height="86dp"
         android:layout_marginStart="70dp"
         android:layout_marginEnd="205dp"
-        android:layout_marginBottom="370dp"
+        android:layout_marginBottom="305dp"
         android:fontFamily="sans-serif-medium"
         android:text="@string/cbsobre"
         android:textColor="#370909"
@@ -95,10 +95,9 @@
         android:textSize="27sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cbrefri" />
-
 
     <EditText
         android:id="@+id/qtd2"
@@ -106,15 +105,19 @@
         android:layout_height="43dp"
         android:layout_marginStart="91dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="473dp"
+        android:layout_marginBottom="448dp"
         android:ems="10"
         android:hint="@string/qtd2"
-        android:inputType="text"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/cbrefri"
         tools:ignore="TouchTargetSizeCheck" />
-
 
     <EditText
         android:id="@+id/qtd3"
@@ -123,16 +126,21 @@
         android:layout_marginStart="108dp"
         android:layout_marginTop="56dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="374dp"
+        android:layout_marginBottom="-80dp"
         android:ems="10"
         android:hint="@string/qtd3"
-        android:inputType="text"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
         app:layout_constraintStart_toEndOf="@+id/cbsobre"
         app:layout_constraintTop_toBottomOf="@+id/qtd2"
+        app:layout_constraintVertical_bias="0.047"
         tools:ignore="TouchTargetSizeCheck" />
-
 
     <Button
         android:id="@+id/btnfinalizar"
@@ -155,10 +163,10 @@
 
     <TextView
         android:id="@+id/txtvalor"
-        android:layout_width="210dp"
-        android:layout_height="59dp"
+        android:layout_width="287dp"
+        android:layout_height="91dp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="85dp"
         android:layout_marginEnd="192dp"
         android:layout_marginBottom="122dp"
         android:fontFamily="sans-serif-black"
@@ -169,9 +177,10 @@
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnfinalizar" />
-
+        app:layout_constraintTop_toBottomOf="@+id/btnfinalizar"
+        app:layout_constraintVertical_bias="0.617" />
 
     <Button
         android:id="@+id/btnvoltar"
@@ -204,12 +213,16 @@
         android:layout_marginBottom="37dp"
         android:ems="10"
         android:hint="@string/qtd1"
-        android:inputType="text"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
         app:layout_constraintBottom_toTopOf="@+id/qtd2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.741"
         app:layout_constraintStart_toEndOf="@+id/cbcachorroquente"
         app:layout_constraintTop_toBottomOf="@+id/txtpedido"
-        app:layout_constraintVertical_bias="0.977" />
+        app:layout_constraintVertical_bias="0.908" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

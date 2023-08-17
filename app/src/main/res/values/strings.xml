@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">PAMExercicios</string>
     <string name="txtpedido"> Faça seu Pedido </string>
-    <string name="cbcahorroquente"> Cachorro Quente </string>
-    <string name="cbrefri"> Refrigerante</string>
-    <string name="cbsobre">   Sobremesa </string>
+    <string name="cbcahorroquente"> C </string>
+    <string name="cbrefri"> R</string>
+    <string name="cbsobre"> S</string>
     <string name="qtd1"> Qtd</string>
     <string name="qtd2">Qtd</string>
     <string name="qtd3">Qtd</string>
     <string name="btnfinalizar">Finalizar Pedido</string>
-    <string name="txtvalor">Valor Pedido: </string>
+    <string name="txtvalor"> </string>
     <string name="btnproximo"> Próximo </string>
     <string name="txtexe3">Exercício 3</string>
     <string name="btnentrar1">Entrar</string>
@@ -16,8 +16,8 @@
     <string name="btnentrar2">Entrar</string>
     <string name="btnvoltar">Voltar</string>
     <string name ="txtpremio">Verifique seu Prêmio </string>
-    <string name ="txtextra"> Digite suas horas extras  </string>
-    <string name ="txtfaltas"> Digite suas horas faltas  </string>
+    <string name ="txtextra"> Digite seus minutos Extras </string>
+    <string name ="txtfaltas"> Digite seus minutos Faltados</string>
     <string name="txtvericar"> Verificar </string>
-    <string name="txtresult"> Seu prêmio é de: </string>
+    <string name="txtresult">  </string>
 </resources>
