@@ -215,9 +215,16 @@ Comandos usados: git remote origin e git push
 > 
 > ![git push](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/9813c3f5-ee02-4827-bc6a-733f229799ab)
 
-## Vídeo da execução da app (De cada exercício)  
+>
+# Vídeo da execução da app (De cada exercício)  
+
+### Exercício 3
 https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/61de4c7b-6e1c-4a8f-a511-4981886fce3e
 
+>
+
+### Exercício 6
+https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/c1d6ba1e-898b-42d0-9f7c-b47202f18f04
 
 
 
