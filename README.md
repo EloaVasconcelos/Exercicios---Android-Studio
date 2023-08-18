@@ -39,10 +39,11 @@ Comandos usados: git remote origin e git push
 > 
 > 2 EditText, onde o usuário irá digitar os minutos (Extras e Faltas)
 > 
-> 2 botões, 1 para verificar (onde todos os calculos estaram programados) e outro para ir para o próximo exercício 
+> 2 botões, 1 para verificar (onde todos os cálculos estaram programados) e outro para ir para o próximo exercício 
 >
-> No processo de criação de tela (adicionando os elementos de layout), mudando seus id e posicionando na tela,
-> Assim como as  strings (textos/palavras) que irão aparecer na tela eram declaradas no arquivo de strings, através do id 
+> No processo de criação de tela:(adicionando os elementos de layout), mudando seus id e posicionando na tela,
+>
+> Assim como as strings (textos/palavras) que irão aparecer na tela eram declaradas no ARQUIVO DE STRINGS, através do id declarados 
 >
 > 
 ## Elemento de Layout Utilizado: Toobar (Somente para o layout da pagina)
@@ -67,11 +68,11 @@ Comandos usados: git remote origin e git push
 
 > No codigo a seguir a anotação @SuppressLint("MissingInflatedId") foi inserida (por sugestão do android) pois um elemento de layout está sem id definido (toolbar) 
 >
-> E a seguir os elementos de layout que estão na activity_main_activity2_tela2 estão sendo instanciados
+> E a seguir os elementos de layout que estão na activity_main_activity2_tela2 estão sendo instânciados 
 > 
 ![Elementos](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/19a950e6-ad70-4cb8-a07a-d0313bb14305)
 >
-> O botão verificar será programado (onde todos os calculos são programados)  
+> O botão verificar será programado (onde todos os cálculos são programados)  
 >
 > Primeiro: Um método de tratamento de evento de clique o botão 
 >
@@ -79,7 +80,7 @@ Comandos usados: git remote origin e git push
 >
 ![Conversão](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/aabc2659-cf0c-4cbd-ac61-2098111e9a59)
 >
-> O exercício pede que os minutos digitados sejam transformados em horas e mostrados na tela junto com o valor do prêmio
+> O Exercícios pede que os minutos digitados sejam transformados em horas e mostrados na tela junto com o valor do prêmio
 >
 > Então antes de verificar o prêmio os minutos serão convertidos e mostrados na tela 
 >
@@ -94,13 +95,13 @@ Comandos usados: git remote origin e git push
 ![Conversão 2](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/f125c3b3-65cd-412f-bf1f-cf479ae7de83)
 
 
-> Após converter os valores em minutos o calculo para verificar o prêmio é feito 
+> Após converter os valores em minutos o cálculo para verificar o prêmio é feito 
 >
 > Criando a variável H 
 >
 > Calculo: double H = Me - (2.0 / 3.0) * Mf;
 >
-> Apos fazer o cálculo, o proximo  passo é fazer a verificação de acordo com a tabela do exercício, de acordo com o resultado os o valor do prêmio é definido
+> Após fazer o cálculo, o proximo  passo é fazer a verificação de acordo com a tabela do exercício, de acordo com o resultado os o valor do prêmio é definido
 > 
 > Utilizando a estrutura if e else
 > 
@@ -111,15 +112,15 @@ Comandos usados: git remote origin e git push
 
 ![Cálculo e Estrutura](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/eb07d7c7-29aa-4a4d-92c1-64a568929280)
 
-> Por ultimo o botao próximo é programado, direcionando para a próxima tela, criando uma nova intent 
+> Por ultimo o botão próximo é programado, direcionando para a próxima tela, criando uma nova intent 
 ![Programando o botão próximo](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/271a135b-10dd-49d3-9b74-f2738390c1a8)
 
 > Esse exercício foi testado no celular e está funcionado
 
 ## Git Bash
-> Colocando o código do exercício 3 no repositorio (Colocando as alterçoes feitas)
+> Colocando o código do exercício 3 no repositório (Colocando as alterçoes feitas)
 > 
-> git add., depois git commit e git push
+> git add. e depois git commit e git push
 >
 > Print do git push
 > 
@@ -138,7 +139,7 @@ Comandos usados: git remote origin e git push
 >
 > 3 Edit text, todas servem para a entrada da quantidade de cada produto
 >
-> 2 button, 1 para Finalizar o pedido, somanto tudo
+> 2 button, 1 para Finalizar o pedido, somandos tudo
 >
 > 3 CheckBox, as 3 servem para o usuário selecinar o produto ao seu pedido
 >
@@ -216,7 +217,7 @@ Comandos usados: git remote origin e git push
 
 ### Ultimo commit - 
 > Exercícios testados e funcionando
-> Colocando as alteraçoes no repositório do github
+> Colocando as alterações no repositório do github
 > 
 > ![git add.](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/efc3f742-4fc3-43dc-913f-186990c8377a)
 > 
