@@ -95,7 +95,7 @@ Comandos usados: git remote origin e git push
 ![Conversão 2](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/f125c3b3-65cd-412f-bf1f-cf479ae7de83)
 
 
-> Após converter os valores em minutos o cálculo para verificar o prêmio é feito 
+> Após converter os valores em horas o cálculo para verificar o prêmio é feito 
 >
 > Criando a variável H 
 >
@@ -147,7 +147,7 @@ Comandos usados: git remote origin e git push
 > Assim como as  strings (textos/palavras) que irão aparecer na tela eram declaradas no arquivo de strings, através do id 
 
 ## Elemento de Layout Utilizado: CheckBox
-> A elemento de layout "CheckBox" foi utilizada para que o usuário posso selecionar o produto desejado, tendo um sistema de escolha
+> O elemento de layout "CheckBox" foi utilizado para que o usuário possa selecionar o produto desejado, tendo um sistema de escolha
 > Como o própio nome diz é uma caixa de seleção, possibilitando o usuário a escolher vários itens
 > No exercício o usuário irá selecionar o codigo no produto
 > O usuário irá escolher o código do produto, sendo eles:
@@ -160,7 +160,7 @@ Comandos usados: git remote origin e git push
 
 ### Código XML 
 >
-> Assim como no exercício 3 o atributo (android:inputType="number") foi inserido no código de cada CheckBox, servindo para abrir somente o o teclado númerico 
+> Assim como no exercício 3 o atributo (android:inputType="number") foi inserido no código de cada CheckBox, servindo para abrir somente o teclado númerico 
 >
 ## Código Java 
 >
@@ -173,15 +173,15 @@ Comandos usados: git remote origin e git push
 
 > Calucando o PEDIDO:
 > 
-> De inicio dentro do bntfinalizar, 4 variáveis são criadas, recendo valor nulo de inicou. Pois em seguida serão utilizadas para Cálculos
+> De inicio dentro do bntfinalizar, 4 variáveis são criadas, recendo valor nulo de inicio. Pois em seguida serão utilizadas para Cálculos
 > 
 ![4 variáves](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/81ef1df6-7629-41be-945d-93d3a6acdba3)
 >
-> Após declarar as variáveis uma estrutura de if vai ser criada, e as variaveis criadas serão usadas em cada checkbox 
+> Após declarar as variáveis uma estrutura de if vai ser criada, e as variáveis criadas serão usadas em cada checkbox 
 >
-> Na estrutura if e else abaixo: As 3 check box são programadas, onde caso estejam selecionadas um calcula será feito
+> Na estrutura if e else abaixo: As 3 checkbox são programadas, onde caso estejam selecionadas um calculo será feito
 >
-> Pegando a quantidade do produto (definido pelo usuário na edit text referente ao produto)
+> Pegando a quantidade do produto (definido pelo usuário na edittext referente ao produto)
 >
 >  E multiplicando pelo seu respectivo valor
 >
