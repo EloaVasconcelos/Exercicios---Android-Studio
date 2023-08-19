@@ -76,7 +76,13 @@ Comandos usados: git remote origin e git push
 >
 > Primeiro: Um método de tratamento de evento de clique o botão 
 >
-> Em seguida os valores digitados na caixa de texto serão convertidos em double, assim declarando novas variáveis para receberem o valor (serão usados no calculo)
+> 2 variáveis são criadas para receberem os valores digitados nas caixas de text
+> Me para os minutos extras
+>
+> Mf para os minutos faltados
+>
+> Em seguida os valores digitados na caixa de texto serão convertidos em double, assim declarando novas variáveis para receberem o valor (Me e MF)
+>(serão usados no calculo)
 >
 ![Conversão](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/aabc2659-cf0c-4cbd-ac61-2098111e9a59)
 >
@@ -140,7 +146,7 @@ Comandos usados: git remote origin e git push
 >
 > 3 Edit text, todas servem para a entrada da quantidade de cada produto
 >
-> 2 button, 1 para Finalizar o pedido, somandos tudo
+> 2 button, 1 para Finalizar o pedido, somando tudo e outro  para voltar ao começo do app 
 >
 > 3 CheckBox, as 3 servem para o usuário selecinar o produto ao seu pedido
 >
@@ -220,7 +226,7 @@ Comandos usados: git remote origin e git push
 ![Botão voltar](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/653caa77-541d-4c23-a915-029d94582ae5)
 
 
-### Ultimo commit - 
+### Penultimo commit - 
 > Exercícios testados e funcionando
 > Colocando as alterações no repositório do github
 > 
@@ -230,6 +236,11 @@ Comandos usados: git remote origin e git push
 > 
 > ![git push](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/9813c3f5-ee02-4827-bc6a-733f229799ab)
 
+## Ultimo commit - Alteracao 
+>
+![image](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/a1d31dfc-2021-442b-93f2-25b65e20e4e1)
+>
+![image](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/b9e7ac37-f194-4b7b-a1ca-151930793c7f)
 
 
 
