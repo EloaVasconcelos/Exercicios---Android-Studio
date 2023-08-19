@@ -51,7 +51,7 @@ public class MainActivity2Tela2 extends AppCompatActivity {
                 txthoras.setText("Horas Extras: "+ Horas);
 
                 double Horas2 = Mf/60;
-                txthoras2.setText("Horas Extras: "+ Horas2);
+                txthoras2.setText("Horas Faltas: "+ Horas2);
 
 
                 // Pegando os valores digitados e fazendo o cálculo
