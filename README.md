@@ -148,11 +148,17 @@ Comandos usados: git remote origin e git push
 
 ## Elemento de Layout Utilizado: CheckBox
 > O elemento de layout "CheckBox" foi utilizado para que o usuário possa selecionar o produto desejado, tendo um sistema de escolha
+> 
 > Como o própio nome diz é uma caixa de seleção, possibilitando o usuário a escolher vários itens
+> 
 > No exercício o usuário irá selecionar o codigo no produto
+> 
 > O usuário irá escolher o código do produto, sendo eles:
+> 
 > C para CachorroQuente
+> 
 > R para Refri
+> 
 > S para sobremessa  
 
 ## Print da tela
@@ -160,7 +166,7 @@ Comandos usados: git remote origin e git push
 
 ### Código XML 
 >
-> Assim como no exercício 3 o atributo (android:inputType="number") foi inserido no código de cada CheckBox, servindo para abrir somente o teclado númerico 
+> Assim como no exercício 3 o atributo (android:inputType="number") foi inserido no código de cada EditText, servindo para abrir somente o teclado númerico 
 >
 ## Código Java 
 >
@@ -191,9 +197,7 @@ Comandos usados: git remote origin e git push
 >
 > ![Estrutura if nas check box](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/18f013a7-1e27-4cef-be6c-6940cc86f4f2)
 >
-> Em seguida todos os valores obtidos através das checkbox (produto selecionado)
->
-> E através da edittext (quantidades de cada produto)
+> Em seguida todos os valores obtidos com os produtos selecionados (CHECKBOX)  e suas devidas quantidades (EDITTEXT)
 >
 > Um cálculo é feito somandos todas, através da variáveis que estão "armazenando" o valor de cada uma
 >
