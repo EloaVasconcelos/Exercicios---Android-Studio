@@ -92,7 +92,8 @@ Comandos usados: git remote origin e git push
 >
 > Ambos transformados em horas e apresentados em textview diferentes
 
-![Conversão 2](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/f125c3b3-65cd-412f-bf1f-cf479ae7de83)
+![image](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/e92894e5-72af-4483-bc2c-ac8060227019)
+
 
 
 > Após converter os valores em horas o cálculo para verificar o prêmio é feito 
@@ -229,11 +230,17 @@ Comandos usados: git remote origin e git push
 > 
 > ![git push](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/9813c3f5-ee02-4827-bc6a-733f229799ab)
 
->
+
+
+
+## Arquivo de Strings do projeto
+
+![image](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/92d95839-92be-42c1-9d63-7e1750672179)
+
 # Vídeo da execução da app (De cada exercício)  
 
 ### Exercício 3
-https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/61de4c7b-6e1c-4a8f-a511-4981886fce3e
+
 
 >
 
