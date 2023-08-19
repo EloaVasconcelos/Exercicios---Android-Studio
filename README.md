@@ -249,17 +249,15 @@ Comandos usados: git remote origin e git push
 ![image](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/92d95839-92be-42c1-9d63-7e1750672179)
 
 # Vídeo da execução da app (De cada exercício)  
-
+>
 ### Exercício 3
-
+https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/4d876453-8d7f-41cf-b251-ab5df7439de5
 
 >
-
 ### Exercício 6
 https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/c1d6ba1e-898b-42d0-9f7c-b47202f18f04
 
 >
-
 ### Interação das Telas
 https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/a9238421-9617-451b-90bc-6bf0a136901a
 
