@@ -77,11 +77,15 @@ Comandos usados: git remote origin e git push
 > Primeiro: Um método de tratamento de evento de clique o botão 
 >
 > 2 variáveis são criadas para receberem os valores digitados nas caixas de text
+>
 > Me para os minutos extras
 >
 > Mf para os minutos faltados
 >
-> Em seguida os valores digitados na caixa de texto serão convertidos em double, assim declarando novas variáveis para receberem o valor (Me e MF)
+> Em seguida os valores digitados na caixa de texto serão convertidos em double,
+>
+> assim declarando novas variáveis para receberem o valor (Me e MF)
+>
 >(serão usados no calculo)
 >
 ![Conversão](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/aabc2659-cf0c-4cbd-ac61-2098111e9a59)
