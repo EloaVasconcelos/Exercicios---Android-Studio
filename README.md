@@ -41,12 +41,12 @@ Comandos usados: git remote origin e git push
 > 
 > 2 botões, 1 para verificar (onde todos os cálculos estaram programados) e outro para ir para o próximo exercício 
 >
-> No processo de criação de tela:(adicionando os elementos de layout), mudando seus id e posicionando na tela,
+> No processo de criação de tela:(adicionando os elementos de layout), mudando seus id e posicionando-os na tela,
 >
 > Assim como as strings (textos/palavras) que irão aparecer na tela eram declaradas no ARQUIVO DE STRINGS, através do id declarados 
 >
 > 
-## Elemento de Layout Utilizado: Toobar (Somente para o layout da pagina)
+## Elemento de Layout Utilizado: Toobar (Somente para o layout da página)
 > Geralmente a Toolbar é implementada para servir como barra de tarefas de app, no entanto no exercício será somente utilizado para complementar o layout da tela 
 
 ## Print da tela
@@ -55,7 +55,7 @@ Comandos usados: git remote origin e git push
 
 ### Código XML 
 > No código do layout, foi adicionado um novo atributo sendo ele(android:inputType="number")
-> Que serve para abrir somento o teclado númerico do celular
+> Que serve para abrir somente o teclado númerico do celular
 > 
 >  ![teclado numerico](https://github.com/EloaVasconcelos/PamExercicios/assets/127448572/d7308c6f-4be3-4311-9354-87276695998f)
 
@@ -84,13 +84,13 @@ Comandos usados: git remote origin e git push
 >
 > Em seguida os valores digitados na caixa de texto serão convertidos em double,
 >
-> assim declarando novas variáveis para receberem o valor (Me e MF)
+> Assim declarando novas variáveis para receberem o valor (Me e MF)
 >
->(serão usados no calculo)
+>(Serão usados no calculo)
 >
 ![Conversão](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/aabc2659-cf0c-4cbd-ac61-2098111e9a59)
 >
-> O Exercícios pede que os minutos digitados sejam transformados em horas e mostrados na tela junto com o valor do prêmio
+> O Exercício pede que os minutos digitados sejam transformados em horas e mostrados na tela junto com o valor do prêmio
 >
 > Então antes de verificar o prêmio os minutos serão convertidos e mostrados na tela 
 >
@@ -181,14 +181,14 @@ Comandos usados: git remote origin e git push
 >
 ## Código Java 
 >
-> Em primeiro os elementos de layout e seus id's são declarados
+> Primeiro os elementos de layout e seus id's são declarados
 > [ID elementos](https://github.com/EloaVasconcelos/Programacao-Web-PESSOAL-/assets/127448572/4a07c563-8b8a-4766-b95c-ba23c712cc37)
 > 
 > Em seguidas esses elementos são instânciados, antes do botão (Finalizar Pedido)
 > 
 ![Instânciando](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/612698ab-32e5-49c5-9af7-f5c22b3da344)
 
-> Calucando o PEDIDO:
+> Calculando o PEDIDO:
 > 
 > De inicio dentro do bntfinalizar, 4 variáveis são criadas, recendo valor nulo de inicio. Pois em seguida serão utilizadas para Cálculos
 > 
@@ -210,7 +210,7 @@ Comandos usados: git remote origin e git push
 >
 > Em seguida todos os valores obtidos com os produtos selecionados (CHECKBOX)  e suas devidas quantidades (EDITTEXT)
 >
-> Um cálculo é feito somandos todas, através da variáveis que estão "armazenando" o valor de cada uma
+> Um cálculo é feito somando todas, através das variáveis que estão "armazenando" o valor de cada uma
 >
 > Criando uma última variável = "Valor final" que somará tudo
 >
@@ -224,13 +224,13 @@ Comandos usados: git remote origin e git push
 ![Mostrando resultado final](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/5588e5fe-f106-4954-9b3d-7425064f15f6)
 
 >
-> Por final o botão voltar é programada com uma intent (voltar)
+> Por final o botão voltar é programado com uma intent (voltar)
 >
 > Esse botão leverá para a tela inicial do projeto 
 ![Botão voltar](https://github.com/EloaVasconcelos/Exercicios---Android-Studio/assets/127448572/653caa77-541d-4c23-a915-029d94582ae5)
 
 
-### Penultimo commit - 
+### Penúltimo commit - 
 > Exercícios testados e funcionando
 > Colocando as alterações no repositório do github
 > 
